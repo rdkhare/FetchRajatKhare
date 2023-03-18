@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A06EAC329C0647B0006A69E /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = 1A06EAC229C0647B0006A69E /* URLImage */; };
 		1A11954329BF181800C60B1E /* FetchRajatKhareApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A11954229BF181800C60B1E /* FetchRajatKhareApp.swift */; };
 		1A11954529BF181800C60B1E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A11954429BF181800C60B1E /* ContentView.swift */; };
 		1A11954729BF181C00C60B1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A11954629BF181C00C60B1E /* Assets.xcassets */; };
@@ -51,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A06EAC329C0647B0006A69E /* URLImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +145,9 @@
 			dependencies = (
 			);
 			name = FetchRajatKhare;
+			packageProductDependencies = (
+				1A06EAC229C0647B0006A69E /* URLImage */,
+			);
 			productName = FetchRajatKhare;
 			productReference = 1A11953F29BF181800C60B1E /* FetchRajatKhare.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +220,9 @@
 				Base,
 			);
 			mainGroup = 1A11953629BF181800C60B1E;
+			packageReferences = (
+				1A06EAC129C0647B0006A69E /* XCRemoteSwiftPackageReference "url-image" */,
+			);
 			productRefGroup = 1A11954029BF181800C60B1E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -583,6 +591,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1A06EAC129C0647B0006A69E /* XCRemoteSwiftPackageReference "url-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dmytro-anokhin/url-image.git";
+			requirement = {
+				kind = exactVersion;
+				version = 0.9.17;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1A06EAC229C0647B0006A69E /* URLImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1A06EAC129C0647B0006A69E /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1A11953729BF181800C60B1E /* Project object */;
 }

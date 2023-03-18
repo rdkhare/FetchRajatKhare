@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "url-image",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/dmytro-anokhin/url-image.git",
+      "state" : {
+        "revision" : "475cc75beb7d2be17c9cf8bf7215112ebb96830e",
+        "version" : "0.9.17"
+      }
+    }
+  ],
+  "version" : 2
+}
